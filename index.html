@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<!-- fontawesom -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+			integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Profile finder</title>
+	</head>
+	<body>
+		<main class="container-fluid my-5 text-left">
+			<section id="profile-list">
+				<h1 class="mb-5 title-princip text-center">Profiles</h1>
+				<div
+					class="d-flex justify-content-around list-content flex-wrap card-columns card-deck"
+				></div>
+			</section>
+
+			<section id="profile-details" class="hide">
+				<div class="d-flex card-columns flex-column justify-content-around details">
+					<div class="detail-image-hover">
+						<img cover class="detail-image" alt="aca va una foto" />
+						<a onclick="backDetails()" class="button-back"
+							><i class="fas fa-arrow-left"></i
+						></a>
+					</div>
+					<div
+						class="detail-description flex-wrap d-flex flex-column text-center mx-5"
+					>
+						<ul>
+							<li class="name"></li>
+							<li class="direction"></li>
+							<li class="email"></li>
+							<li class="gender"></li>
+							<li class="phone"></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Optional JavaScript -->
+		<!-- feature js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
