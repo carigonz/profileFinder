@@ -26,11 +26,10 @@ a {
 }
 
 body {
-	margin: 3%;
 	height: 100%;
 	font-family: 'Montserrat', sans-serif, 'Varela Round', 'Courier New', Courier,
 		monospace;
-	margin: 0;
+	width: 98vw;
 	padding: 0 2%;
 	background-color: var(--main-bg-dark);
 }
@@ -40,10 +39,10 @@ body {
 	font-size: 3rem;
 	animation: move-byline 6s;
 	position: absolute;
-	left: -2em;
+	left: 0em;
+	width: 98vw;
 	font-weight: bold;
 	letter-spacing: 0.4em;
-	right: -2em;
 }
 
 .title-princip span {
